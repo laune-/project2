@@ -2,7 +2,7 @@
 require 'uberspacify/base'
 
 # comment this if you don't use MySQL
-require 'uberspacify/mysql' 
+require 'uberspacify/sqlite' 
 
 # the Uberspace server you are on
 server 'norma.uberspace.de', :web, :app, :db, :primary => true
